@@ -1,0 +1,14 @@
+{
+  "timeout": 25,
+  "source": {
+    "directories": [
+      "src"
+    ]
+  },
+  "logs": {
+    "summary": "infection.log",
+    "text": "infection-log.txt"
+  },
+  "tmpDir": ".",
+  "testFramework": "codeception"
+}

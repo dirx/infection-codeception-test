@@ -1,0 +1,17 @@
+{
+    "require-dev": {
+        "php": "^7.3",
+        "infection/infection": "dev-feature/codeception",
+        "codeception/codeception": "^3.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Stuff\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Stuff\\": "tests/integration"
+        }
+    }
+}
