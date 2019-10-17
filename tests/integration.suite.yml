@@ -7,7 +7,7 @@ modules:
               user: 'test'
               password: 'test'
               dump:
-                  - '../tests/_data/stuff.sql'
+                  - 'tests/_data/stuff.sql'
               cleanup: false
               populate: true
     step_decorators: ~
