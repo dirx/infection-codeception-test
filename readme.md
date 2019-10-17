@@ -35,7 +35,7 @@ Run codeception tests with initial infection based config (wail fail):
 docker-compose run php vendor/bin/codecept run --config /app/./infection/codeception.initial.infection.yml --coverage-phpunit codeception-coverage-xml --xml /app/./infection/junit.xml
 ```
 
-Change dump configuration in [tests/integration.suite.yml#L10](./tests/integration.suite.yml) to ```'../tests/_data/stuff.sql'```.
+Change dump configuration in [tests/integration.suite.yml](./tests/integration.suite.yml#L10) to ```'../tests/_data/stuff.sql'```.
 
 Run infection again (now ok)
 
